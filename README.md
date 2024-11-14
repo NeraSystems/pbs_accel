@@ -65,6 +65,12 @@ For example, if your device number is 0, run:
 ```
 make run DEVICE=0
 ```
+Please check your device index by running the following command
+
+```
+xbutil examine
+```
+Make sure to source XRT before running the command.
 
 The ```Makefile``` will initialize the FPGA and execute the binary files on the specified device.
 
