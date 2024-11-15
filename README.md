@@ -84,8 +84,8 @@ The following performance metrics were recorded using the PBS accelerator on **X
 
 | Instance                  | Single Kernel/Thread    | per card/per instance                              |
 | -----------------         | ----------------        | -------------------------------------------------- |
-| **Our PBS Accelerator**   |         262 PBS/s       | 1575 PBS/s                                         |
-|  **c6i.2x**               |         71 PBS/s        | 571 PBS/s                                          |
+| **Our PBS Accelerator**   |         262 PBS/s       | Up to 1575 PBS/s                                   |
+|  **c6i.2x**               |         71 PBS/s        | Up to 571 PBS/s                                    |
 
 These performance results highlight the accelerator’s capacity for high-throughput PBS operations, which is essential for applications in homomorphic encryption and secure computing.
 
