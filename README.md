@@ -13,7 +13,6 @@ Welcome to the **Programmable Bootstrapping Accelerator** repository! This repos
 
 ## 🚀 Key Features
 
-- **High Performance**: Achieves ~1575 programmable bootstraps per second (PBS/S) with multiple compute units.
 - **Single Kernel Execution Time**: 15.2 ms
 - **Device-Specific**: Optimized exclusively for Xilinx U55C FPGA with XRT version 2.4.3 or later.
 - **Strict Usage**: Binaries are for testing only and come with clear usage restrictions.
@@ -78,7 +77,14 @@ The ```Makefile``` will initialize the FPGA and execute the binary files on the 
 The following performance metrics were recorded using the PBS accelerator on **Xilinx U55C FPGA**:
 
 - ⏱️ **Single Kernel Computation Time**: ~15.2 ms
-- ⚡ **Throughput with Multiple Compute Units**: ~1575 PBS (Programmable Bootstraps) per second
+- ⚡ **Throughput PBS/s with one card**: ~1575 PBS (Programmable Bootstraps) per second
+
+## Benchmark
+
+| Instance                  | Single Kernel/Thread    | per card/per instance                              |
+| -----------------         | ----------------        | -------------------------------------------------- |
+| **Our PBS Accelerator**   |         262 PBS/s       | 1575 PBS/s                                         |
+|  **c6i.2x**               |         71 PBS/s        | 571 PBS/s                                          |
 
 These performance results highlight the accelerator’s capacity for high-throughput PBS operations, which is essential for applications in homomorphic encryption and secure computing.
 
@@ -94,6 +100,6 @@ By accessing or using these binaries, you agree to abide by the following terms:
 
 > **Disclaimer**: This repository, including all code and binaries, is provided "as is" without any warranties, express or implied, including but not limited to implied warranties of merchantability or fitness for a particular purpose. The authors or Nera Systems INC assume no liability for any harm, damages, or losses resulting from the use or misuse of these files.
 
-Thank you for respecting the terms of use for these files. For support or inquiries, please contact rami@nera.systems
+Thank you for respecting the terms of use for these files. For support or inquiries, please contact info@nera.systems
 
 
