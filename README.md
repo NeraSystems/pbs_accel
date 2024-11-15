@@ -15,6 +15,7 @@ Welcome to the **Programmable Bootstrapping Accelerator** repository! This repos
 
 - **Single Kernel Execution Time**: 15.2 ms
 - **Single Kernel Throughput**: 262 PBS/s
+- **Multi Kernel Throughout**: Up to 1575 PBS/s
 - **Device-Specific**: Optimized exclusively for Xilinx U55C FPGA with XRT version 2.4.3 or later.
 - **Strict Usage**: Binaries are for testing only and come with clear usage restrictions.
 
@@ -78,7 +79,7 @@ The ```Makefile``` will initialize the FPGA and execute the binary files on the 
 The following performance metrics were recorded using the PBS accelerator on **Xilinx U55C FPGA**:
 
 - ⏱️ **Single Kernel Computation Time**: ~15.2 ms
-- ⚡ **Throughput PBS/s with multiple kernels**: ~1575 PBS (Programmable Bootstraps) per second
+- ⚡ **Throughput PBS/s with multiple kernels**: Up to 1575 PBS (Programmable Bootstraps) per second
 
 ## Benchmark
 
